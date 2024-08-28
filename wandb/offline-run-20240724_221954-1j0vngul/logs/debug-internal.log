@@ -1,0 +1,68 @@
+2024-07-24 22:19:54,126 INFO    StreamThr :12640 [internal.py:wandb_internal():85] W&B internal server running at pid: 12640, started at: 2024-07-24 22:19:54.125865
+2024-07-24 22:19:54,129 DEBUG   HandlerThread:12640 [handler.py:handle_request():158] handle_request: status
+2024-07-24 22:19:54,131 INFO    WriterThread:12640 [datastore.py:open_for_write():87] open: c:\srujan_global_project\wandb\offline-run-20240724_221954-1j0vngul\run-1j0vngul.wandb
+2024-07-24 22:19:54,141 DEBUG   HandlerThread:12640 [handler.py:handle_request():158] handle_request: run_start
+2024-07-24 22:19:54,164 DEBUG   HandlerThread:12640 [system_info.py:__init__():26] System info init
+2024-07-24 22:19:54,165 DEBUG   HandlerThread:12640 [system_info.py:__init__():41] System info init done
+2024-07-24 22:19:54,165 INFO    HandlerThread:12640 [system_monitor.py:start():194] Starting system monitor
+2024-07-24 22:19:54,165 INFO    SystemMonitor:12640 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-24 22:19:54,166 INFO    HandlerThread:12640 [system_monitor.py:probe():214] Collecting system info
+2024-07-24 22:19:54,170 INFO    SystemMonitor:12640 [interfaces.py:start():188] Started cpu monitoring
+2024-07-24 22:19:54,174 DEBUG   HandlerThread:12640 [system_info.py:probe():152] Probing system
+2024-07-24 22:19:54,175 INFO    SystemMonitor:12640 [interfaces.py:start():188] Started disk monitoring
+2024-07-24 22:19:54,183 INFO    SystemMonitor:12640 [interfaces.py:start():188] Started memory monitoring
+2024-07-24 22:19:54,202 INFO    SystemMonitor:12640 [interfaces.py:start():188] Started network monitoring
+2024-07-24 22:19:54,203 DEBUG   HandlerThread:12640 [gitlib.py:_init_repo():56] git repository is invalid
+2024-07-24 22:19:54,203 DEBUG   HandlerThread:12640 [system_info.py:probe():200] Probing system done
+2024-07-24 22:19:54,203 DEBUG   HandlerThread:12640 [system_monitor.py:probe():223] {'os': 'Windows-11-10.0.22631-SP0', 'python': '3.12.3', 'heartbeatAt': '2024-07-24T16:49:54.174639', 'startedAt': '2024-07-24T16:49:54.060816', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'srujan', 'username': 'Lenoo', 'executable': 'c:\\Users\\Lenoo\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1801.0, 'min': 0.0, 'max': 1801.0}, 'cpu_freq_per_core': [{'current': 1801.0, 'min': 0.0, 'max': 1801.0}], 'disk': {'/': {'total': 117.99511337280273, 'used': 112.65305709838867}}, 'memory': {'total': 7.907444000244141}}
+2024-07-24 22:19:54,203 INFO    HandlerThread:12640 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-24 22:19:54,203 INFO    HandlerThread:12640 [system_monitor.py:probe():227] Publishing system info
+2024-07-24 22:19:54,204 INFO    HandlerThread:12640 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-24 22:19:57,424 DEBUG   HandlerThread:12640 [handler.py:handle_request():158] handle_request: python_packages
+2024-07-24 22:19:59,164 DEBUG   HandlerThread:12640 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 22:19:59,164 DEBUG   SenderThread:12640 [sender.py:send_request():406] send_request: status_report
+2024-07-24 22:20:04,189 DEBUG   HandlerThread:12640 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 22:20:04,189 DEBUG   SenderThread:12640 [sender.py:send_request():406] send_request: status_report
+2024-07-24 22:20:09,207 DEBUG   HandlerThread:12640 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 22:20:09,207 DEBUG   SenderThread:12640 [sender.py:send_request():406] send_request: status_report
+2024-07-24 22:20:14,248 DEBUG   HandlerThread:12640 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 22:20:14,248 DEBUG   SenderThread:12640 [sender.py:send_request():406] send_request: status_report
+2024-07-24 22:20:19,266 DEBUG   HandlerThread:12640 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 22:20:19,266 DEBUG   SenderThread:12640 [sender.py:send_request():406] send_request: status_report
+2024-07-24 22:20:24,295 DEBUG   HandlerThread:12640 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 22:20:24,295 DEBUG   SenderThread:12640 [sender.py:send_request():406] send_request: status_report
+2024-07-24 22:20:29,335 DEBUG   HandlerThread:12640 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 22:20:29,335 DEBUG   SenderThread:12640 [sender.py:send_request():406] send_request: status_report
+2024-07-24 22:20:34,378 DEBUG   HandlerThread:12640 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 22:20:34,379 DEBUG   SenderThread:12640 [sender.py:send_request():406] send_request: status_report
+2024-07-24 22:20:39,403 DEBUG   HandlerThread:12640 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 22:20:39,404 DEBUG   SenderThread:12640 [sender.py:send_request():406] send_request: status_report
+2024-07-24 22:20:44,432 DEBUG   HandlerThread:12640 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 22:20:44,433 DEBUG   SenderThread:12640 [sender.py:send_request():406] send_request: status_report
+2024-07-24 22:20:49,485 DEBUG   HandlerThread:12640 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 22:20:49,486 DEBUG   SenderThread:12640 [sender.py:send_request():406] send_request: status_report
+2024-07-24 22:20:54,207 DEBUG   SystemMonitor:12640 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-24 22:20:54,521 DEBUG   HandlerThread:12640 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 22:20:54,521 DEBUG   SenderThread:12640 [sender.py:send_request():406] send_request: status_report
+2024-07-24 22:20:59,534 DEBUG   HandlerThread:12640 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 22:20:59,535 DEBUG   SenderThread:12640 [sender.py:send_request():406] send_request: status_report
+2024-07-24 22:21:05,691 DEBUG   HandlerThread:12640 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 22:21:05,974 DEBUG   SenderThread:12640 [sender.py:send_request():406] send_request: status_report
+2024-07-24 22:21:11,853 DEBUG   HandlerThread:12640 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 22:21:12,047 DEBUG   SenderThread:12640 [sender.py:send_request():406] send_request: status_report
+2024-07-24 22:21:18,111 DEBUG   HandlerThread:12640 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 22:21:18,517 DEBUG   SenderThread:12640 [sender.py:send_request():406] send_request: status_report
+2024-07-24 22:21:22,710 DEBUG   HandlerThread:12640 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 22:21:22,710 DEBUG   SenderThread:12640 [sender.py:send_request():406] send_request: status_report
+2024-07-24 22:21:27,776 DEBUG   HandlerThread:12640 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 22:21:27,830 DEBUG   SenderThread:12640 [sender.py:send_request():406] send_request: status_report
+2024-07-24 22:21:32,988 DEBUG   HandlerThread:12640 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 22:21:32,988 DEBUG   SenderThread:12640 [sender.py:send_request():406] send_request: status_report
+2024-07-24 22:21:38,031 DEBUG   HandlerThread:12640 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 22:21:38,032 DEBUG   SenderThread:12640 [sender.py:send_request():406] send_request: status_report
+2024-07-24 22:21:41,814 INFO    memory    :12640 [interfaces.py:monitor():138] Process proc.memory.rssMB has exited.
+2024-07-24 22:21:41,816 DEBUG   SystemMonitor:12640 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-24 22:21:41,817 DEBUG   SystemMonitor:12640 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-24 22:21:43,090 DEBUG   HandlerThread:12640 [handler.py:handle_request():158] handle_request: status_report
+2024-07-24 22:21:43,132 DEBUG   SenderThread:12640 [sender.py:send_request():406] send_request: status_report
+2024-07-24 22:21:44,090 INFO    MainThread:12640 [internal.py:handle_exit():75] Internal process exited

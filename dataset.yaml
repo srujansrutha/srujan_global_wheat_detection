@@ -1,0 +1,9 @@
+path: C:\\srujan_global_project\\dataset  # Root directory of your dataset
+train: images/train
+val: images/valid
+test: images/test
+
+# Classes
+names:
+    0: none
+    1: opacity

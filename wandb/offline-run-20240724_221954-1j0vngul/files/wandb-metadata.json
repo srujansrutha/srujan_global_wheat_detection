@@ -1,0 +1,38 @@
+{
+    "os": "Windows-11-10.0.22631-SP0",
+    "python": "3.12.3",
+    "heartbeatAt": "2024-07-24T16:49:54.174639",
+    "startedAt": "2024-07-24T16:49:54.060816",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "host": "srujan",
+    "username": "Lenoo",
+    "executable": "c:\\Users\\Lenoo\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1801.0,
+        "min": 0.0,
+        "max": 1801.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1801.0,
+            "min": 0.0,
+            "max": 1801.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 117.99511337280273,
+            "used": 112.65305709838867
+        }
+    },
+    "memory": {
+        "total": 7.907444000244141
+    }
+}
